@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href='https://fonts.googleapis.com/css?family=DM Serif Text' rel='stylesheet'>
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            font-size: large;
+            margin: 0;
+            padding: 0;
+            background: url(image/bulan.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #3d261e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            font-family: 'DM Serif Text';font-size: 15px;
+            text-align: center;
+            background-color: #f3a2a2;
+            padding: 10px 0;
+            width: 100%;
+        }
+        nav {
+            text-align: center;
+            background: rgba(255, 191, 191, 0.8);
+            padding: 10px 0;
+            width: 100%;
+        }
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #c56161;
+        }
+        .logo {
+            position: absolute;
+            top: 5px;
+            left: 25px;
+        }
+        .logo img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+        }
+        .work-experience {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .work-item {
+            background: rgba(250, 223, 223, 0.918);
+            border-radius: 8px;
+            margin: 20px;
+            padding: 20px;
+            width: 45%;
+            box-sizing: border-box;
+            color: #000000;
+        }
+        .work-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .work-item h3 {
+            color: #074b3c;
+            margin: 10px 0;
+        }
+        .skills-section {
+            background: rgba(194, 155, 168, 0.842);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 40px;
+            width: 100%;
+            max-width: 1200px;
+            box-sizing: border-box;
+        }
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            color: #000000;
+        }
+        .skills-table th, .skills-table td {
+            padding: 15px;
+            background: rgba(152, 219, 214, 0.877);
+            border: 1px solid #000000;
+        }
+        .skills-table th {
+            background: rgb(255, 139, 139);
+            color: #ffffffee;
+        }
+        .skills-table tr:nth-child(even) {
+            background: rgb(0, 0, 0);
+        }
+        .language-section {
+            background: rgba(196, 147, 164, 0.808);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 40px;
+            width: 100%;
+            max-width: 1200px;
+            box-sizing: border-box;
+        }
+        .language-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            color: #f8f8f8;
+        }
+        .language-table th, .language-table td {
+            padding: 15px;
+            background: rgba(255, 175, 84, 0.877);
+            border: 1px solid #030301;
+        }
+        .language-table th {
+            background: rgb(216, 255, 139);
+            color: #000000ee;
+        }
+        .language-table tr:nth-child(even) {
+            background: rgb(54, 52, 52);
+        }
+        footer {
+            background: rgb(255, 174, 174, 0.8);
+            color: #000000;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            position: static;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anis Aisyah's Qualification</h1>
+    </header>
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="education.html">EDUCATION</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT ME</a>
+        </div>
+    </nav>
+    <div class="logo">
+        <img src="image/Purple Aesthetic Nail Art Studio Logo.jpg" alt="Logo">
+    </div>
+    <div class="container">
+        <h1>Work Experience</h1>
+        <div class="work-experience">
+            <div class="work-item">
+                <img src="image/leypark.jpg" alt="Work Image 1b">
+                <img src="https://cdn.klfoodie.com/2019/06/halal-steamboat-kl-selangor.png" alt="Work Image 1">
+                <h3>Steamboat and Grill (Jan 2019 - Mar 2019)</h3>
+                <p>Assist in the preparation and grilling of food items, ensure the cleanliness of the dining area, and deliver a high-quality dining experience to customers.</p>
+            </div>
+            <div class="work-item">
+                <img src="https://www.quaysidemall.com.my/full/wp-content/uploads/2020/12/IMG_2109-1-1024x768.jpg" alt="Work Image 2">
+                <img src="image/tealive.jpg" alt="Work Image 2b" style="width:250px;height:400px;">
+                <h3>Tealive Tearista (September 2021 - September 2022)</h3>
+                <p>Prepare and serve a variety of beverages while providing excellent customer service and maintaining a clean and efficient work environment at Tealive.</p>
+            </div>
+            <div class="work-item">
+                <img src="image/amal.jpg" alt="Work Image 3b">
+                <img src="image/tadika.jpg" alt="Work Image 3">
+                <h3>Kindergarten Teacher (November 2022 - Mar 2023)</h3>
+                <p>Develop and implement age-appropriate lesson plans, foster a positive and nurturing learning environment, and support the social and educational development of young children.</p>
+            </div>
+        </div>
+        <div class="language-section">
+            <h2>Languages</h2>
+            <table class="language-table">
+                <tr>
+                    <th>Language</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>Bahasa Melayu</td>
+                    <td>Native</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Mandarin</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </div>
+        <div class="skills-section">
+            <h2>Skills</h2>
+            <table class="skills-table">
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>Microsoft Word</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>Microsoft PowerPoint</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Excel</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>Canva</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Anis Aisyah. All rights reserved.</p>
+    </footer>
+</body>
+</html>

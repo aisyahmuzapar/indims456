@@ -1,0 +1,102 @@
+body {
+    
+    background: url(image/bulan.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    width: 100%;
+  }
+  nav a {
+    text-decoration: none;
+    color: #7dfa9d;
+    padding: 10px 20px;
+    display: inline-block;
+  
+  }
+  nav a:hover {
+    background: #444;
+  }
+  .logo {
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  .logo img {
+    height: 50px;
+  }
+
+.container {
+    margin-top: 80px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.work-experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+.work-item {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.work-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.work-item h3 {
+    color: #ffcc00;
+    margin: 10px 0;
+}
+
+.work-item p {
+    color: #fff;
+}
+
+.skills-section {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: #fff;
+}
+
+.skills-table th, .skills-table td {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #444;
+}
+
+.skills-table th {
+    background: rgba(0, 0, 0, 0.9);
+    color: #ffcc00;
+}
